@@ -3,97 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listas</title>
-  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <title>Trabalhando com links</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
 </head>
-<body>
-  <h1>Listas</h1>
-  <h2>Lista ordenada</h2>
-    <p>Podemos criar uma lista ordenada usando a tag OL (Ordered List) e cada item da lista é criado com a tag LI (List Item).
-    São listas onde a ordem dos itens importa. </p>
-  <ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-
-  <p>A tag "ol" possui parâmetro type, onde configuramos o tipo de marcador da lista atual. As opções de valores para esses parâmetro são: </p>
-  <ul>
-    <li>type="1" - Marcador numérico (padrão)</li>
-    <li>type="A" - Marcador alfabético maiúsculo</li>
-    <li>type="a" - Marcador alfabético minúsculo</li>
-    <li>type="I" - Marcador romano maiúsculo</li>
-    <li>type="i" - Marcador romano minúsculo</li>
-  </ul>
-  <p>Exemplo de lista ordenada com marcador alfabético maiúsculo:</p>
-  <ol type="A">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-  <p>Exemplo de lista ordenada com marcador romano minúsculo:</p>
-  <ol type="i">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-  <p>Exemplo de lista ordenada com marcador numérico:</p>
-  <ol type="1">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-  <p>Exemplo de lista ordenada com marcador alfabético minúsculo:</p>
-  <ol type="a">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-  <p>Exemplo de lista ordenada com marcador romano maiúsculo:</p>
-  <ol type="I">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ol>
-   <p>Podemos também pode indiciar o início da contagem usando o parâmetro start.</p>
-   <p>Por exemplo, a tag "<"ol" type="I" start="5">"</ol>" </ol>vai gerar uma lista com início em V, VI, VII, VIII, IX,...</ol> </p>
-  <h2>Lista não ordenada</h2>
-  <p>Podemos criar uma lista não ordenada usando a tag UL (Unordered List) e cada item da lista é criado com a tag LI (List Item).</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-  </ul>
-
-  <p>A tag "ul" possui parâmetro type, onde configuramos o tipo de marcador da lista atual. As opções de valores para esses parâmetro são: </p>
-  <ul>
-    <li>type="disc" - Marcador em forma de disco (padrão)</li>
-    <li>type="circle" - Marcador em forma de círculo</li>
-    <li>type="square" - Marcador em forma de quadrado</li>
-  </ul>
-  <h2>Misturando as coisas</h2>
-  <ol>
-    <li>Item 1</li>
-    <li>Item 2
-      <ol type="a">
-        <li>Item 2.1</li>
-        <li>Item 2.2</li>
-        <li>Item 2.3</li>
-      </ol>
-    </li>
-    <li>Item 3</li>
-    <li>Item 4</li>
-    <li>Item 5</li>
-  </ol>
-
-  <h3>Exercício proposto</h3>
-  <p>Crie seu próprio código e faça a seguinte lista aninhada com </p>
+<body>  
+  <h1>Trabalhando com links</h1>
+  <h2>links externos</h2>
+    <p>Você pode acessar o meu <a href="https://www.linkedin.com/in/jotapeh-dev/" hreflang="en" target="_blank" rel="external">perfil no LinkedIn</a></p>
+    <p>Você pode acessar o meu <a href="https://github.com/JotaPeH-Dev" hreflang="en" target ="_blank" rel="external">repositório público no GitHub</a></p>
+  <h2>Links internos</h2>
+    <p>Voce pode <a href="index2.html">acessar a segunda página clicando aqui.</a></p>
+  <h2>Links de download</h2>
+    <p>Aqui voce pode <a href="Download/PESQUISA PLP.txt" download="PESQUISA PLP.txt" type="application/txt">baixar meu manual de PLP</a></p>
+    <p><a href="Download/PESQUISA PLP.txt" download="PESQUISA PLP.zip" type="application/zip">Versão compactada do arquivo</a></p>
 </body>
 </html>
