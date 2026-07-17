@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens dinâmicas</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+<body>
+  <h1>Imagens Dinâmicas</h1>
+  <h2>Aplicando a responsividade da nesta imagem</h2>
+  <picture>
+    <source media="(max-width: 350px)" srcset="Zenitsu300x300.jpg" type="image/jpg">
+    <source media="(max-width: 750px)" srcset="Zenitsu700x700.jpg" type="image/jpg">
+    <source media="(max-width: 1050px)" srcset="Zenitsu1000x1000.jpg" type="image/jpg">
+    <img src="Zenitsu1000x1000.jpg" alt="A imagem flexível funciona">
+  </picture>
+  
+</body>
+</html>
